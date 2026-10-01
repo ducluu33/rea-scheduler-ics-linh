@@ -32,7 +32,7 @@ jobs:
 
       - name: Build schedule.ics
         env:
-          GROUP: ${{ vars.GROUP || '15.27Д-БИ01/256' }}
+          GROUP: ${{ vars.GROUP || '15.27Д-БИ01/25б' }}
           END_DATE: ${{ vars.END_DATE || '2026-06-27' }}
           MAX_WEEKS: '20'
         run: npm run build
